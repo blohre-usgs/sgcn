@@ -16,7 +16,9 @@ The process explored in this repository is based in Python code through Jupyter 
 
 ``
 conda create --name sgcn
+
 conda install -c conda-forge jupyter pip
+
 pip install git+git://github.com/usgs-bcb/bispy
 ``
 
