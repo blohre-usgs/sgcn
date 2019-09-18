@@ -14,9 +14,11 @@ State SGCN lists are submitted to the USGS in partnership with the Association o
 
 The process explored in this repository is based in Python code through Jupyter Notebooks. Data are sourced from the files in ScienceBase and are processed through logic in our provisional software package, [bispy](https://github.com/usgs-bcb/bispy). The codes are all based on open data and methods. If you want to run the code yourself, you will need to install the bispy package and other necessary dependencies. It is recommended that you run the system in a clean virtual environment. We use Anaconda, so that process looks something like the following:
 
+``
 conda create --name sgcn
 conda install -c conda-forge jupyter pip
 pip install git+git://github.com/usgs-bcb/bispy
+``
 
 This is not meant as an operational codebase but as a set of notes and processing logic we are exploring for how to conduct the work of synthesizing a common national list of SGCN species. The notebooks explain our thinking about the process and the decisions we are making about how to assemble the list.
 
